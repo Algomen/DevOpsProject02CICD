@@ -51,4 +51,4 @@ Port: 443
 
 <TODO: Add link Screencast on YouTube>
 
-
+[![Python application test with Github Actions](https://github.com/Algomen/DevOpsProject02CICD/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Algomen/DevOpsProject02CICD/actions/workflows/pythonapp.yml)
