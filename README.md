@@ -21,6 +21,7 @@
 ![image](https://user-images.githubusercontent.com/62774791/187049262-04ce460e-758c-452c-84d2-ae8f880836d5.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+![image](https://user-images.githubusercontent.com/62774791/187049449-efc33f21-f4b4-4e96-93f6-4d93d9c20c25.png)
 
 * Output of a test run
 
