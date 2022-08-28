@@ -10,10 +10,11 @@ CICD pipeline built with Azure DevOps that automates continuous delivery of a ML
 
 ## Instructions
 
-<TODO:  
 ![image](https://user-images.githubusercontent.com/62774791/187070302-38e01986-2549-499d-868b-4ec506bc4747.png)
-
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+1- Clone repo
+2- Test application locally and in azure web app
+3- Deploy it in a pipeline using the yml file in the repo
+4- Feel free to modify the yml file or the Makefile to adapt the configuration and tests to your needs
 
 * Project running on Azure App Service
 ![image](https://user-images.githubusercontent.com/62774791/187051625-7824b8ad-98f4-4a57-8cd1-8ab6c2b341df.png)
@@ -56,6 +57,6 @@ Further improvements include creating a front end for the flask application, con
 
 ## Demo 
 
-[<Demo>](https://youtu.be/qthi8DbYoT4)
+https://youtu.be/qthi8DbYoT4
 
 [![Python application test with Github Actions](https://github.com/Algomen/DevOpsProject02CICD/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Algomen/DevOpsProject02CICD/actions/workflows/pythonapp.yml)
