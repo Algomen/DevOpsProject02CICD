@@ -28,19 +28,18 @@ stages:
   jobs:
   - job: BuildJob
     pool: alvarosagentpool
-      steps:
-      - script: |
+    steps:    
+    - script: |
         python3.7 -m pip install --upgrade pip
         python3.7 -m pip install setup
         python3.7 -m pip install -r requirements.txt
       workingDirectory: $(projectRoot)
-
     - script: |
         export PATH=$HOME/.local/bin:$PATH
         make install
         make lint
+      workingDirectory: $(projectRoot)
       displayName: 'Run lint tests'
-
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
