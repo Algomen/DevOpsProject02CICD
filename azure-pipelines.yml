@@ -30,9 +30,9 @@ stages:
     pool: alvarosagentpool
     steps:    
     - script: |
-        python -m pip install --upgrade pip
-        python -m pip install setup
-        python -m pip install -r requirements.txt
+        python3 -m pip install --upgrade pip
+        python3 -m pip install setup
+        python3 -m pip install -r requirements.txt
       workingDirectory: $(projectRoot)
     - script: |
         export PATH=$HOME/.local/bin:$PATH
