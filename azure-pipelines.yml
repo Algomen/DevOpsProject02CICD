@@ -13,11 +13,6 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- task: UsePythonVersion@0
-  inputs:
-    versionSpec: '$(pythonVersion)'
-    addToPath: true
-    architecture: 'x64'
     
 - script: |
     echo Add other tasks to build, test, and deploy your project.
