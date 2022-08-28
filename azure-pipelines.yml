@@ -16,7 +16,7 @@ variables:
   webAppName: 'mlapp01'
 
   # Environment name
-  environmentName: 'flask-ml-azure'
+  environmentName: 'flask-ml-service'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
