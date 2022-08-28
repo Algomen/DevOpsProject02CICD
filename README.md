@@ -11,7 +11,7 @@
 ## Instructions
 
 <TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![image](https://user-images.githubusercontent.com/62774791/187070302-38e01986-2549-499d-868b-4ec506bc4747.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
