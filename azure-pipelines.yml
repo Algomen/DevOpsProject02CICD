@@ -6,7 +6,7 @@ trigger:
 - master
 
 # TODO: Replace the agent pool name
-pool: alvarospool
+pool: alvarosagentpool
 
 variables:
   # TODO: Replace the service connection name
@@ -26,7 +26,7 @@ stages:
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: alvarospool
+    pool: alvarosagentpool
     steps:    
     - script: |
         python3.7 -m pip install --upgrade pip
@@ -58,7 +58,7 @@ stages:
   condition: succeeded()
   jobs:
   - deployment: DeploymentJob
-    pool: alvarospool
+    pool: alvarosagentpool
     environment: $(environmentName)
     strategy:
       runOnce:
