@@ -10,7 +10,7 @@ pool: alvarosagentpool
 
 variables:
   # TODO: Replace the service connection name
-  azureServiceConnectionId: '3d69b374-bee3-4223-a42e-fae158df3d59'
+  azureServiceConnectionId: 'https://odl_user_sp_205462'
   
   # TODO: Replace 'mywebapp193576' with the existing Web App name
   webAppName: 'mlapp01'
