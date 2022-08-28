@@ -1,6 +1,6 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+CICD pipeline built with Azure DevOps that automates continuous delivery of a ML flask application
 
 ## Project Plan
 
@@ -52,10 +52,10 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+Further improvements include creating a front end for the flask application, containerization and deployment in Kubernetes
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+[<Demo>](https://youtu.be/qthi8DbYoT4)
 
 [![Python application test with Github Actions](https://github.com/Algomen/DevOpsProject02CICD/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Algomen/DevOpsProject02CICD/actions/workflows/pythonapp.yml)
