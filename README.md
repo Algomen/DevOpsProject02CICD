@@ -29,8 +29,11 @@
 ![image](https://user-images.githubusercontent.com/62774791/187049637-59810cd1-ca37-4540-874b-f27617df358d.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+<img width="956" alt="image" src="https://user-images.githubusercontent.com/62774791/187068629-19faa505-642d-46a1-a0fa-cb748a74c374.png">
+
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+![image](https://user-images.githubusercontent.com/62774791/187068565-39b30100-898a-4f2b-97e5-78d3ca401c02.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 ![image](https://user-images.githubusercontent.com/62774791/187051617-234e7219-95a9-4200-b488-b725a5f17ac4.png)
