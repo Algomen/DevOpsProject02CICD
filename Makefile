@@ -6,6 +6,6 @@ test:
 	#python -m pytest -vv locustfile.py
 
 lint:
-	pylint --disable=R,C app.py
+		pylint --disable=R,C app.py
 
 all: install lint test
