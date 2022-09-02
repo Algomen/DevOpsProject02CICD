@@ -11,7 +11,7 @@ class WebsiteUser(HttpUser):
     @task
     def predict(self):
         self.client.post("/predict", json={
-            "CRIM": {
+           "CRIM": {
               "0":0.21124
            },
            "ZN":{
