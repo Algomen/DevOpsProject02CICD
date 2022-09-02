@@ -60,7 +60,6 @@ Port: 443
 Further improvements include creating a front end for the flask application, containerization and deployment in Kubernetes
 
 ## Demo 
-
-https://youtu.be/qthi8DbYoT4
+https://youtu.be/oLMGLYogr3I
 
 [![Python application test with Github Actions](https://github.com/Algomen/DevOpsProject02CICD/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Algomen/DevOpsProject02CICD/actions/workflows/pythonapp.yml)
