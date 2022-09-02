@@ -7,7 +7,7 @@ class WebsiteUser(HttpUser):
     @task
     def index(self):
         self.client.get("/")
-"""
+
     @task
     def predict(self):
         self.client.post("/predict", json={
@@ -51,4 +51,3 @@ class WebsiteUser(HttpUser):
               "0":29.93
            }
         })
-"""
