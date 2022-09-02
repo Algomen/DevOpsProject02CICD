@@ -26,6 +26,10 @@ CICD pipeline built with Azure DevOps that automates continuous delivery of a ML
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 ![image](https://user-images.githubusercontent.com/62774791/187049449-efc33f21-f4b4-4e96-93f6-4d93d9c20c25.png)
 
+* Passing tests with locust
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/62774791/188176589-2098db9c-e956-4813-8df0-4f4250eb9dd8.png">
+
+
 * Output of a test run
 ![image](https://user-images.githubusercontent.com/62774791/187049637-59810cd1-ca37-4540-874b-f27617df358d.png)
 
